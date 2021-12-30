@@ -1,0 +1,344 @@
+body {
+ font-family: Arial, sans-serif;
+ padding: 0;
+ margin: 0;
+}
+
+.clearfix::after{
+    content:'';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header{
+    background: url(../img/moda.jpg) no-repeat center top / cover;
+    padding-bottom: 150px;
+    
+}
+.container {
+    width: 930px;
+    margin: auto;
+}
+
+.logo {
+     margin-top: 41px;
+     float: left;
+    }
+
+nav {
+    float: right;
+    margin-top: 65px;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.menu li {
+    float: left;
+    display: block;
+    margin-right: 41px;
+
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.titles_first {
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+.button {
+    background: red;
+    color: white;
+    border-radius: 3px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.title {
+    padding-top: 115px;
+
+}
+
+.title h2 {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+
+
+}
+
+.title p {
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.services {
+    margin-top: 50px;
+}
+
+.services_item {
+    width: 270px;
+    float: left;
+    text-align: center;
+
+}
+
+.services_item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+
+}
+
+.services_item p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.55em;
+
+}
+
+.services_item:last-child {
+    float: right;
+}
+
+.services_item:nth-child(2){
+    margin-left: 55px;
+}
+
+#services {
+    padding-bottom: 120px;
+}
+
+#portfolio {
+    background: #f7f7f7;
+    padding-bottom: 120px;
+}
+
+.works img{
+    float: left;
+    margin-top: 40px;
+
+}
+
+.works img:nth-child(2){
+    margin-left: 15px;
+}
+
+.works img:last-child {
+    float: right;
+}
+
+#news{
+    background: url(../img/shein.png) no-repeat center top / cover;
+    padding-bottom: 600px;
+    
+}
+
+
+.news1 {
+margin-bottom: 100px;
+}
+
+#Ader {
+    background: url(../img/ader-error.jpg) no-repeat center top / cover;
+    padding-bottom: 600px;
+    margin-bottom: 10px;
+}
+
+.errors p{
+    font-size: 30px;
+    color: rgb(58, 14, 158);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+.errors {
+    margin-bottom: 30px;
+}
+
+#virgil{
+    background: url(../img/virgil.png) no-repeat center top / cover;
+    padding-bottom: 600px;
+    margin-bottom: 10px;
+}
+
+.virgile p{
+    font-size: 30px;
+    color: rgb(158, 14, 14);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+
+.relize h2{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.relize p {
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.relize{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#relizy{
+    background: url(../img/tnfxsupr.jpg) no-repeat center top / cover;
+    padding-bottom: 500px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.venom p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.venom{
+    margin-bottom: 20px;
+}
+
+#gap{
+    background: url(../img/yeezy-x-gap-anonsiroval-reliz-kurtki-yeezy-gap-round-jacket-01-mcmag.ru_-759x500.png) no-repeat center top / cover;
+    padding-bottom: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.kanie p{
+    font-size: 30px;
+    color: rgb(39, 9, 175);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+#summer {
+    background: url(../img/dior-spring-summer-2022-menswear-obzor-kollekczii-9-mcmag.ru_.png) no-repeat center top / cover;
+    padding-bottom: 600px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.fall p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+/* Модальный (фон) */
+.modal {
+    display: none; /* Скрыто по умолчанию */
+    position: fixed; /* Оставаться на месте */
+    z-index: 1; /* Сидеть на вершине */
+    left: 0;
+    top: 0;
+    width: 100%; /* Полная ширина */
+    height: 100%; /* Полная высота */
+    overflow: auto; /* Включите прокрутку, если это необходимо */
+    background-color: rgb(0,0,0); /* Цвет запасной вариант */
+    background-color: rgba(0,0,0,0.4); /* Черный с непрозрачностью */
+  }
+  
+  /* Модальное содержание/коробка */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% сверху и по центру */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Может быть больше или меньше, в зависимости от размера экрана */
+  }
+  
+  /* Кнопка закрытия */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+
+
+  }
+
+
+
+  .knopka{
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  .knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+  .knopka:active { background: rgb(152,15,0); } /* при нажатии */
